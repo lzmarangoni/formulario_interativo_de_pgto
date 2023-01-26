@@ -1,0 +1,8 @@
+.cardBack{
+    background-image: url(../../../public/images/bg-card-back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:400px;
+    height: 200px;
+    
+}

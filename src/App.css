@@ -1,9 +1,13 @@
+
+
 .App {
   background-image: url(../public/images/bg-main-desktop.png);
   background-repeat: no-repeat;
   height: 100vh;
-
   text-align: center;
+  display: flex;
+  justify-content: center;
+
 }
 
 @media screen and (max-width:450px) {
@@ -12,4 +16,12 @@
     background-repeat: repeat-x; 
   }
   
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }

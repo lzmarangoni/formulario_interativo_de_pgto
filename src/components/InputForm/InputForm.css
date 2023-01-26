@@ -1,0 +1,29 @@
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.inputForm label{
+    text-align: left;
+    text-transform: uppercase;
+}
+.inputForm input{
+    border-radius: 5px;
+    border: 1px solid hsl(270, 3%, 87%);
+    box-sizing: border-box;
+    padding: .25rem .7rem;
+    color:hsl(279, 6%, 55%);
+    
+    
+}
+
+.inputForm ::-webkit-input-placeholder{
+    color: hsl(270, 3%, 87%);
+}
+
+.inputForm input:focus{
+   
+    border-color: linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+   
+}
