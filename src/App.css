@@ -1,0 +1,15 @@
+.App {
+  background-image: url(../public/images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  text-align: center;
+}
+
+@media screen and (max-width:450px) {
+  .App{
+    background-image: url(../public/images/bg-main-mobile.png);
+    background-repeat: repeat-x; 
+  }
+  
+}
