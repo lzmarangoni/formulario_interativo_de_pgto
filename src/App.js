@@ -8,10 +8,13 @@ function App() {
   return (
     <div className="App">
       <div className='cards'>
-      <CardFront/>
+        <CardFront/>
         <CardBack/>
       </div>
+      <div className='form'>
       <FormDetails/>
+      </div>
+      
     </div>
   );
 }

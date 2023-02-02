@@ -2,20 +2,23 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: .7rem 0rem;
+    box-sizing: border-box;
+    padding: 0rem .5rem;
    
 }
 .inputForm label{
     text-align: left;
     text-transform: uppercase;
+    margin: .5rem 0rem;
+    font-size: 13px;
 }
 .inputForm input{
     border-radius: 5px;
     border: 1px solid hsl(270, 3%, 87%);
     box-sizing: border-box;
-    padding: .25rem .7rem;
-    color:hsl(279, 6%, 55%);
-    
-    
+    padding:  .7rem;
+    color:hsl(279, 6%, 55%);    
 }
 
 .inputForm ::-webkit-input-placeholder{
