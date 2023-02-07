@@ -1,8 +1,11 @@
 import './CardFront.css'
 
-const CardFront = ()=>{
+const CardFront = (props)=>{
     return(
         <div className='cardFront'>
+            
+            <p>{props.cardNumber}</p>
+            <p>{props.cardHolder}</p>
           
         </div>
     )
