@@ -2,10 +2,40 @@
     background-image: url(../../../public/images/bg-card-front.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width:400px;
+    width:360px;
     height: 200px;
-    margin-right: 6rem;
+    margin-right: 8rem;
     margin-bottom: 2rem;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-around;
 }
 
 
+
+.cardFront #cardNumber{
+    position: absolute;
+    bottom: 3rem;
+    
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.cardFront #cardHolder{
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    color: white;
+
+}
+
+.cardFront div{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    color: white;
+ 
+}

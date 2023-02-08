@@ -1,12 +1,12 @@
 import './DoubleInput.css'
 
-const DoubleInput = ()=>{
+const DoubleInput = (props)=>{
     return(
         <div className='doubleInput'>
             <label>Vencimento do cartão</label>
             <div>
-                <input/>
-                <input style={{marginLeft:'.5rem'}}/>
+                <input onChange={props.captureMonth}/>
+                <input onChange={props.captureYear} style={{marginLeft:'.5rem'}}/>
             </div>
         </div>
     )

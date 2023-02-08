@@ -4,9 +4,18 @@ const CardFront = (props)=>{
     return(
         <div className='cardFront'>
             
-            <p>{props.cardNumber}</p>
-            <p>{props.cardHolder}</p>
+           
+            <p id='cardHolder'>{props.cardHolder}</p>
+            <p id='cardNumber'> {props.cardNumber}</p>
+ 
+       
+            
+                <div>
+                    <p>{props.cardMonth}</p>/
+                    <p>{props.cardYear}</p>
+                </div>
           
+               
         </div>
     )
 }
