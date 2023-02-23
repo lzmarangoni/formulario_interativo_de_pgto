@@ -39,3 +39,14 @@
     color: white;
  
 }
+
+@media screen and (max-width:415px){
+    .cardFront{
+        width: 250px;
+        margin: 0;
+    }
+
+    .cardFront #cardNumber{
+        font-size: 0.7rem;
+    }
+}
