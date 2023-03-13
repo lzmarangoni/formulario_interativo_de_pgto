@@ -3,7 +3,7 @@
     border-radius: 5px;
     border: 1px solid hsl(270, 3%, 87%);
     box-sizing: border-box;
-    padding: .5rem .7rem;
+    padding: .7rem;
     color:hsl(279, 6%, 55%);  
 }
 
@@ -18,9 +18,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: .7rem 0rem;
     box-sizing: border-box;
-    padding: 0rem .5rem;
+    padding: .7rem;
    
 }
 
@@ -28,4 +27,10 @@
     display: flex;
     
     justify-content: space-between;
+}
+
+@media screen and (max-width:415px) {
+    .doubleInput{
+        margin: 0rem ;
+    }
 }

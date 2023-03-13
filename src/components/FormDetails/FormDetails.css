@@ -14,3 +14,10 @@
     width: 100%
 }
 
+@media screen and (max-width:391px){
+    .formDetails {
+        display: block;
+        width: auto
+    }
+}
+

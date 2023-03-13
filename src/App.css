@@ -30,13 +30,12 @@
 }
 
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:391px) {
   .App{
     background-image: url(../public/images/bg-main-mobile.png);
-    background-repeat:none; 
-    background-size:auto;
+    background-size: contain;
     display: block;
-    width: auto;
+   
   }
   .form{
    width: 100vw;

@@ -19,4 +19,8 @@
     .cardBack{
         width: 250px;
     }
+    #cardcvv{
+        right: 2rem;
+        width: 2rem;
+    }
 }

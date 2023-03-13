@@ -47,6 +47,19 @@
     }
 
     .cardFront #cardNumber{
-        font-size: 0.7rem;
+        font-size: 1rem;
+        top: 1rem;
+    }
+    .cardFront #cardHolder {
+        font-size: 1rem;
+        top: 5rem;
+        align-items: center;
+        height: 2rem;
+        
+    }
+    .cardFront div {
+        font-size: 1rem;
+        top: 5rem;
+        height: 2rem;
     }
 }
