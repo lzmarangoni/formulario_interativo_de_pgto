@@ -39,12 +39,17 @@
   }
   .form{
    width: 100vw;
-   
+   box-sizing: border-box;
+   padding: 5rem 1rem;
+
   }
   .cards{
-    width: 100vw;
+    width: 100%;
     padding-top: 2rem;
-    margin:0 auto
+    margin:0 auto;
+    box-sizing: border-box;
+    flex-direction: row;
+
   }
   
 }

@@ -17,9 +17,14 @@
 
 @media screen and (max-width:415px){
     .cardBack{
-        width: 250px;
+        width: 320px;
+        position: relative;
+        top: -.5rem;
+        right: .1rem;
+      
     }
     #cardcvv{
+        top: 3.8rem;
         right: 2rem;
         width: 2rem;
     }

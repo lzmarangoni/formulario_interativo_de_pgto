@@ -42,8 +42,12 @@
 
 @media screen and (max-width:415px){
     .cardFront{
-        width: 250px;
+        width: 320px;
         margin: 0;
+        position: absolute;
+        top: 8rem;
+        left: 1rem;
+        z-index: 1;
     }
 
     .cardFront #cardNumber{
