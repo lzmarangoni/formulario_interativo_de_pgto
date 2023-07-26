@@ -1,8 +1,15 @@
 import React from 'react'
 import './Button.css'
 
-export default function Button({ label }) {
+export default function Button({ label, onClick }) {
+
+  function sendInfoCard (){
+
+    console.log('funcionando')
+
+
+  }
   return (
-   <button className='buttonCustom'>{label}</button>
+   <button onClick={sendInfoCard} className='buttonCustom'>{label}</button>
   )
 }

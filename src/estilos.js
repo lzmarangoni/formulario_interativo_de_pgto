@@ -32,5 +32,6 @@ export const mainColor ={
     white: 'hsl(0, 0%, 100%)',
     grayLight: 'hsl(270, 3%, 87%)',
     grayDark: 'hsl(279, 6%, 55%)',
-    darkViolet: 'hsl(278, 68%, 11%)'
+    darkViolet: 'hsl(278, 68%, 11%)',
+    veryDarkViolet: 'hsl(278, 68%, 11%)'
 }

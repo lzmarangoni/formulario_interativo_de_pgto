@@ -1,5 +1,7 @@
 .buttonCustom{
     width: 95%;
     height: 3rem;
-    
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border-radius: .5rem;
 }
