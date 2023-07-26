@@ -16,23 +16,40 @@
     box-sizing: border-box;
     padding: auto;
     width: 100%;
-    height: 100%;
+    height: 10rem;
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
     color: white;
 }
 
 .cardInfo{
+    font-size: .75rem;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 2rem;
 }
 
 .cardInfo div{
     display: flex;
+    
+}
+
+#cardNumber{
+    width:100%;
+    font-size: 1.5rem;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 2rem;
+
+}
+
+.cardInfoDetails {
+ 
 }
 
 @media screen and (max-width:415px) {

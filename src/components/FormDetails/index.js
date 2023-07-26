@@ -16,7 +16,6 @@ const FormDetails = (props)=>{
             />
             <InputForm 
                 captureValue={props.captureCardNumber} 
-                pattern={"\d{4} \d{4} \d{4} \d{4}"}
                 label='Numero do Cartão' 
                 placeholder='ex: 1234 1234 1234 1234' type='text'
             />

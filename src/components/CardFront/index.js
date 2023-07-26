@@ -7,7 +7,7 @@ const CardFront = (props) => {
                 <p id='cardNumber'> {props.cardNumber}</p>
                 <div className='cardInfo'>
                     <p>{props.cardHolder}</p>
-                    <div>
+                    <div className='cardInfoDetails'>
                         <p>{props.cardMonth}</p>
                         
                         <p>{props.cardYear}</p>
