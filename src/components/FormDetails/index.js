@@ -1,4 +1,5 @@
 
+import Button from '../Button'
 import DoubleInput from '../DoubleInput'
 import InputForm from '../InputForm'
 import './FormDetails.css'
@@ -14,7 +15,7 @@ const FormDetails = (props)=>{
             <DoubleInput captureMonth={props.captureMonth} captureYear={props.captureYear}/>
             <InputForm captureValue={props.captureCvv} label='cvv'/>
             </div>
-            <button>Enviar</button>
+            <Button label="Teste"/>
       
         </form>
     )

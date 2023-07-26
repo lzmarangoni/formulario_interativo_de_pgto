@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
-  
+    width: 80%;
+    margin-right: 2rem;
 }
 
 
@@ -17,7 +17,8 @@
 @media screen and (max-width:415px){
     .formDetails {
         display: block;
-        width: auto
+        width: auto;
+        margin-right: 0;
     }
 }
 
