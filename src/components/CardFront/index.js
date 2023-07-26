@@ -1,21 +1,20 @@
 import './CardFront.css'
 
-const CardFront = (props)=>{
-    return(
+const CardFront = (props) => {
+    return (
         <div className='cardFront'>
-            
-           
-            <p id='cardHolder'>{props.cardHolder}</p>
-            <p id='cardNumber'> {props.cardNumber}</p>
- 
-       
-            
-                <div>
-                    <p>{props.cardMonth}</p>/
-                    <p>{props.cardYear}</p>
+            <div className='cardContent'>
+                <p id='cardNumber'> {props.cardNumber}</p>
+                <div className='cardInfo'>
+                    <p>{props.cardHolder}</p>
+                    <div>
+                        <p>{props.cardMonth}</p>
+                        
+                        <p>{props.cardYear}</p>
+                    </div>
                 </div>
-          
-               
+
+            </div>
         </div>
     )
 }

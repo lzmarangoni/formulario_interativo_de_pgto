@@ -2,30 +2,35 @@
     background-image: url(../../../public/images/bg-card-back.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width:360px;
-    height: 200px;
+    width:21rem;
+    height: 15rem;
     position: relative;
    
 }
 
 #cardcvv{
     position: absolute;
-    bottom: 4.8rem;
-    right: -7rem;
-    width: 100%;
+    top: 4rem;
+    right: 2.5rem;
+   
 }
 
-@media screen and (max-width:415px){
+@media screen and (max-width:415px) {
+
     .cardBack{
-        width: 320px;
-        position: relative;
-        top: -.5rem;
-        right: .1rem;
-      
+        margin: 1rem 0 0 0;
+        position: absolute;
+        right: 1.5rem;
+        top: 2rem;
+        width: 80%;
+       
     }
+
     #cardcvv{
-        top: 3.8rem;
-        right: 2rem;
-        width: 2rem;
+        position: absolute;
+        top: 3.6rem;
+        right: 2.5rem;
+       
     }
+    
 }

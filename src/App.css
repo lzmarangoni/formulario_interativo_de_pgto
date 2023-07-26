@@ -30,7 +30,7 @@
 }
 
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:415px) {
   .App{
     background-image: url(../public/images/bg-main-mobile.png);
     background-size: contain;
@@ -40,16 +40,15 @@
   .form{
    width: 100vw;
    box-sizing: border-box;
-   padding: 5rem 1rem;
+   padding: 1rem 1rem;
+   margin-top: 3rem;
 
   }
   .cards{
     width: 100%;
-    padding-top: 2rem;
-    margin:0 auto;
-    box-sizing: border-box;
-    flex-direction: row;
-
+    height: 18rem;
+    position: relative;
+    margin-bottom: 1rem;
   }
   
 }

@@ -10,31 +10,31 @@ function App() {
   const [cardNumber, setCardNumber] = useState('0000 0000 0000 0000');
   const [cardHolder, setCardHolder] = useState('Luiz Souza');
   const [cardCvv, setCardCvv] = useState('123');
-  const [cardMonth, setCardMonth] = useState('MM');
-  const [cardYear, setCardYear] = useState('AAAA');
+  const [cardMonth, setCardMonth] = useState('MM /');
+  const [cardYear, setCardYear] = useState(' AAAA');
 
 
-  const captureNumber = (e)=>{
-    setCardNumber(e.target.value) 
+  const captureNumber = (e) => {
+    setCardNumber(e.target.value)
     console.log(cardNumber)
   }
-  const captureCardHolder = (e)=>{
-    setCardHolder(e.target.value) 
+  const captureCardHolder = (e) => {
+    setCardHolder(e.target.value)
     console.log(cardHolder)
   }
 
-  const captureCardCvv = (e)=>{
-    setCardCvv(e.target.value) 
+  const captureCardCvv = (e) => {
+    setCardCvv(e.target.value)
     console.log(cardCvv)
   }
 
-  const captureMonth = (e)=>{
-    setCardMonth(e.target.value) 
+  const captureMonth = (e) => {
+    setCardMonth(e.target.value)
     console.log(cardMonth)
   }
 
-  const captureYear = (e)=>{
-    setCardYear(e.target.value) 
+  const captureYear = (e) => {
+    setCardYear(e.target.value)
     console.log(cardYear)
   }
 
@@ -43,24 +43,24 @@ function App() {
   return (
     <div className="App">
       <div className='cards'>
-      <CardFront  cardNumber={cardNumber} 
-                  cardHolder={cardHolder}
-                  cardMonth={cardMonth}
-                  cardYear={cardYear}
-                   />
-                   
+        <CardFront cardNumber={cardNumber}
+          cardHolder={cardHolder}
+          cardMonth={cardMonth}
+          cardYear={cardYear}
+        />
+
         <CardBack Cvv={cardCvv} />
       </div>
       <div className='form'>
-        <FormDetails 
-               
-                   captureHolderCard={captureCardHolder} 
-                   captureCardNumber={captureNumber} 
-                   captureMonth={captureMonth}
-                   captureYear={captureYear}
-                   captureCvv={captureCardCvv} />
+        <FormDetails
+
+          captureHolderCard={captureCardHolder}
+          captureCardNumber={captureNumber}
+          captureMonth={captureMonth}
+          captureYear={captureYear}
+          captureCvv={captureCardCvv} />
       </div>
-      
+
     </div>
   );
 }
