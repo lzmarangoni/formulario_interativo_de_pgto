@@ -9,7 +9,7 @@ const InputForm = (props)=>{
                 onChange={props.captureValue} 
                 style={props.style} 
                 placeholder={props.placeholder} 
-                pattern={props.pattern} maxlength="19" required>
+                pattern={props.pattern} required>
             </input>
         </div>
     )

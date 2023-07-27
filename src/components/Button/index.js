@@ -1,7 +1,8 @@
 import React from 'react'
 import './Button.css'
+import { NavLink } from 'react-router-dom'
 
-export default function Button({ label, onClick }) {
+export default function Button({ label, onClick, to }) {
 
   function sendInfoCard (){
 
@@ -10,6 +11,6 @@ export default function Button({ label, onClick }) {
 
   }
   return (
-   <button onClick={sendInfoCard} className='buttonCustom'>{label}</button>
+   <NavLink to={to} onClick={sendInfoCard} className='buttonCustom'>{label}</NavLink>
   )
 }

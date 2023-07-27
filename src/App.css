@@ -3,8 +3,9 @@
 .App {
   background-image: url(../public/images/bg-main-desktop.png);
   background-repeat: no-repeat;
-  background-size: 20rem;
+ 
   height: 100vh;
+
   text-align: center;
   display: flex;
   justify-content: center;
@@ -18,7 +19,7 @@
   align-items: center;
   justify-content: center;
   width: 40%;
-  padding: 5rem 0 ;
+  padding: 8rem 0 ;
   box-sizing: border-box;
   
 }

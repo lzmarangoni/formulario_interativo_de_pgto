@@ -4,4 +4,8 @@
     background-color: hsl(278, 68%, 11%);
     color: white;
     border-radius: .5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
 }

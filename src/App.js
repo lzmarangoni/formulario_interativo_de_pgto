@@ -4,6 +4,9 @@ import './App.css';
 import CardBack from './components/CardBack';
 import CardFront from './components/CardFront';
 import FormDetails from './components/FormDetails'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Concluido from './components/pages/Concluido';
+
 
 function App() {
 
@@ -51,14 +54,24 @@ function App() {
 
         <CardBack Cvv={cardCvv} />
       </div>
-      <div className='form'>
-        <FormDetails
 
-          captureHolderCard={captureCardHolder}
-          captureCardNumber={captureNumber}
-          captureMonth={captureMonth}
-          captureYear={captureYear}
-          captureCvv={captureCardCvv} />
+      <div className='form'>
+
+
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<FormDetails
+
+              captureHolderCard={captureCardHolder}
+              captureCardNumber={captureNumber}
+              captureMonth={captureMonth}
+              captureYear={captureYear}
+              captureCvv={captureCardCvv} />} />
+              <Route path='/concluido' element={<Concluido/>}/>
+          </Routes>
+          
+        </BrowserRouter>
+
       </div>
 
     </div>

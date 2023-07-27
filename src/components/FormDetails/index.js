@@ -29,7 +29,7 @@ const FormDetails = (props)=>{
                 label='cvv'
             />
             </div>
-            <Button label="Teste"/>
+            <Button label="Cadastrar" to='/concluido'/>
       
         </form>
     )
