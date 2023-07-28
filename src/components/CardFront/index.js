@@ -8,9 +8,8 @@ const CardFront = (props) => {
                 <div className='cardInfo'>
                     <p>{props.cardHolder}</p>
                     <div className='cardInfoDetails'>
-                        <p>{props.cardMonth}</p>
-                        
-                        <p>{props.cardYear}</p>
+                        <p>{props.cardMonth} /</p>
+                        <p> {props.cardYear}</p>
                     </div>
                 </div>
 

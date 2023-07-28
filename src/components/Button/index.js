@@ -11,6 +11,6 @@ export default function Button({ label, onClick, to }) {
 
   }
   return (
-   <NavLink to={to} onClick={sendInfoCard} className='buttonCustom'>{label}</NavLink>
+      <button onClick={sendInfoCard} className='buttonCustom'>{label}</button>
   )
 }

@@ -1,10 +1,11 @@
 
 import { useState } from 'react';
+import React from 'react';
 import './App.css';
 import CardBack from './components/CardBack';
 import CardFront from './components/CardFront';
 import FormDetails from './components/FormDetails'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, useNavigate } from 'react-router-dom'
 import Concluido from './components/pages/Concluido';
 
 
@@ -13,7 +14,7 @@ function App() {
   const [cardNumber, setCardNumber] = useState('0000 0000 0000 0000');
   const [cardHolder, setCardHolder] = useState('Luiz Souza');
   const [cardCvv, setCardCvv] = useState('123');
-  const [cardMonth, setCardMonth] = useState('MM /');
+  const [cardMonth, setCardMonth] = useState('MM');
   const [cardYear, setCardYear] = useState(' AAAA');
 
 
@@ -32,7 +33,7 @@ function App() {
   }
 
   const captureMonth = (e) => {
-    setCardMonth(e.target.value)
+    setCardMonth(e.target.value )
     console.log(cardMonth)
   }
 
@@ -41,7 +42,15 @@ function App() {
     console.log(cardYear)
   }
 
+  const dadosDocartao = {
+    nome: cardHolder,
+    numero: cardNumber, 
+    cvv: cardCvv,
+    mesVenc: cardMonth,
+    anoMes: cardYear 
+  }
 
+  
 
   return (
     <div className="App">
@@ -61,7 +70,6 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<FormDetails
-
               captureHolderCard={captureCardHolder}
               captureCardNumber={captureNumber}
               captureMonth={captureMonth}
